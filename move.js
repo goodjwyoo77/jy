@@ -11,6 +11,7 @@ const scores = [
     {name: '설인', score: 56, mbti: 'INFP', addr: "지구 어딘가 ", contact: "010-1234-1234"},
 ]
 
+2.
 
 const 빠따 = scores.filter((score) => {
      if (score.score  < 40) {
@@ -25,6 +26,15 @@ const 빠따 = scores.filter((score) => {
  console.log(빠따)
  console.log(빠따Students)
 
+
+3.
+let 지영score = null
+for (let i = 0; i < scores.length; i++) {
+  if (scores[i].name === "지영") {
+     지영score = scores[i].score
+   }
+ }
+console.log("지영님score:", 지영score)
 
 
 
