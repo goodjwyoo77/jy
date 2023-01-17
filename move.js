@@ -20,6 +20,11 @@ const 빠따 = scores.filter((score) => {
     }
  })
 
+ const 빠따 Students = scores.filter(score => score.score  < 40)
+
+ console.log(빠따)
+ console.log(빠따Students)
+
 
 
 
