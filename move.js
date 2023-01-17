@@ -11,10 +11,14 @@ const scores = [
     {name: '설인', score: 56, mbti: 'INFP', addr: "지구 어딘가 ", contact: "010-1234-1234"},
 ]
 
-const 보충 = scores.filter(score => score.score < 40)
-.map(score => score.name)
-console.log(보충)
 
+const 빠따 = scores.filter((score) => {
+     if (score.score  < 40) {
+         return true
+    } else {
+         return false
+    }
+ })
 
 
 
