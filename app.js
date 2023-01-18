@@ -54,7 +54,7 @@ app.get('/movies', (req, res) => {
 
 
 //영화 상세
-app.get('/moives/:id',(req,res) =>{
+app.get('/movies/:id',(req,res) =>{
   //1.사용자가 보낸 id를 가져온다
    const id  = req.params.id
    //2.id에 해당한 movie를 가져온다
